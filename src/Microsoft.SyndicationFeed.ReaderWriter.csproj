@@ -3,7 +3,7 @@
   
   <PropertyGroup>
     <VersionPrefix>1.0.0</VersionPrefix>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
     <PackagingToolsInsufficientSDKVersion>false</PackagingToolsInsufficientSDKVersion>
   </PropertyGroup>

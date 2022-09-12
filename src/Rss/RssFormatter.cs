@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed.Rss
+namespace SyndicationFeedX.Rss
 {
     public class RssFormatter : ISyndicationFeedFormatter
     {

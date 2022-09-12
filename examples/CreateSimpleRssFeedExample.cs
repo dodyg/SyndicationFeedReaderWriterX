@@ -2,8 +2,8 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.SyndicationFeed;
-using Microsoft.SyndicationFeed.Rss;
+using SyndicationFeedX;
+using SyndicationFeedX.Rss;
 using System;
 using System.IO;
 using System.Text;
@@ -58,9 +58,9 @@ class CreateSimpleRssFeed
             {
                 var item = new SyndicationItem()
                 {
-                    Id = "https://www.nuget.org/packages/Microsoft.SyndicationFeed.ReaderWriter",
+                    Id = "https://www.nuget.org/packages/SyndicationFeedX.ReaderWriter",
                     Title = $"Item #{i + 1}",
-                    Description = "The new Microsoft.SyndicationFeed.ReaderWriter is now available as a NuGet package!",
+                    Description = "The new SyndicationFeedX.ReaderWriter is now available as a NuGet package!",
                     Published = DateTimeOffset.UtcNow
                 };
 

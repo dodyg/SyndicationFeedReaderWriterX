@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed
+namespace SyndicationFeedX
 {
     public abstract class XmlFeedWriter : ISyndicationFeedWriter
     {

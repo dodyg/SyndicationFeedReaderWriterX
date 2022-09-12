@@ -8,7 +8,7 @@ using System.Globalization;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed.Rss
+namespace SyndicationFeedX.Rss
 {
     public class RssFeedWriter : XmlFeedWriter
     {

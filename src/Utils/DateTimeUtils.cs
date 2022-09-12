@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace Microsoft.SyndicationFeed
+namespace SyndicationFeedX
 {
     static class DateTimeUtils
     {

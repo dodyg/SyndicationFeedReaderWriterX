@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.SyndicationFeed
+namespace SyndicationFeedX
 {
     static class UriUtils
     {

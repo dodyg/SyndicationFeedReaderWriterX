@@ -5,7 +5,7 @@
 using System;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed
+namespace SyndicationFeedX
 {
     static class XmlExtentions
     {

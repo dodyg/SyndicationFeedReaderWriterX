@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed
+namespace SyndicationFeedX
 {
     static class XmlUtils
     {

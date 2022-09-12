@@ -6,7 +6,7 @@ using System;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed
+namespace SyndicationFeedX
 {
     public abstract class XmlFeedReader : ISyndicationFeedReader
     {

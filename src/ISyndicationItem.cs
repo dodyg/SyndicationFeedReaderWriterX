@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.SyndicationFeed
+namespace SyndicationFeedX
 {
     public interface ISyndicationItem
     {

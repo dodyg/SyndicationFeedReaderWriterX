@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed.Rss
+namespace SyndicationFeedX.Rss
 {
     public class RssParser : ISyndicationFeedParser
     {

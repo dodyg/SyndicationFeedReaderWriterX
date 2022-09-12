@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.SyndicationFeed.Atom;
+using SyndicationFeedX.Atom;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using Xunit;
 
-namespace Microsoft.SyndicationFeed.Tests.Atom
+namespace SyndicationFeedX.Tests.Atom
 {
     public class AtomReader
     {

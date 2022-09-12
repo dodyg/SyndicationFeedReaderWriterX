@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed.Atom
+namespace SyndicationFeedX.Atom
 {
     public class AtomFeedWriter : XmlFeedWriter
     {

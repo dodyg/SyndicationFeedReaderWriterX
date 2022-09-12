@@ -3,7 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 
-namespace Microsoft.SyndicationFeed
+namespace SyndicationFeedX
 {
     public interface ISyndicationFeedFormatter
     {

@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.SyndicationFeed.Rss;
+using SyndicationFeedX.Rss;
 using System;
 using System.IO;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using Xunit;
 
-namespace Microsoft.SyndicationFeed.Tests.Rss
+namespace SyndicationFeedX.Tests.Rss
 {
     public class RssWriter
     {
@@ -512,7 +512,7 @@ namespace Microsoft.SyndicationFeed.Tests.Rss
                 {
                     Title = "Rss Writer Available",
                     Description = "The new RSS Writer is now open source!",
-                    Id = "https://github.com/dotnet/wcf/tree/lab/lab/src/Microsoft.SyndicationFeed/src",
+                    Id = "https://github.com/dotnet/wcf/tree/lab/lab/src/SyndicationFeedX/src",
                     Published = DateTimeOffset.UtcNow
                 };
 

@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.SyndicationFeed.Atom
+namespace SyndicationFeedX.Atom
 {
     static class AtomAttributeExtentions
     {

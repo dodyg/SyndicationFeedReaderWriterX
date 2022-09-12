@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed.Atom
+namespace SyndicationFeedX.Atom
 {
     public class AtomParser : ISyndicationFeedParser
     {

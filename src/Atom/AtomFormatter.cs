@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed.Atom
+namespace SyndicationFeedX.Atom
 {
     public class AtomFormatter : ISyndicationFeedFormatter
     {

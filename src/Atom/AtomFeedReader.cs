@@ -6,7 +6,7 @@ using System;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Microsoft.SyndicationFeed.Atom
+namespace SyndicationFeedX.Atom
 {
     public class AtomFeedReader : XmlFeedReader
     {

@@ -352,7 +352,7 @@ namespace Microsoft.SyndicationFeed.Atom
 
             Uri url = null;
             string title = null;
-            DateTimeOffset lastUpdated;
+            DateTimeOffset lastUpdated = default;
 
             foreach (var field in content.Fields)
             {

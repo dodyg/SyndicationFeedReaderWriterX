@@ -45,6 +45,7 @@ namespace Microsoft.SyndicationFeed
         {
             if (string.IsNullOrEmpty(value))
             {
+                result = default;
                 return false;
             }
 
@@ -52,6 +53,7 @@ namespace Microsoft.SyndicationFeed
 
             if (sb.Length < 18)
             {
+                result = default;
                 return false;
             }
 
@@ -73,6 +75,7 @@ namespace Microsoft.SyndicationFeed
 
             if (sb.Length < 19)
             {
+                result = default;
                 return false;
             }
 
@@ -263,6 +266,8 @@ namespace Microsoft.SyndicationFeed
                 result = utcTime;
                 return true;
             }
+
+            result = default;
             return false;
         }
     }
